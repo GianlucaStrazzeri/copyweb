@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* My Css from Here */
+/* My Css start from Here */
 
 .contenedor-background{
     position:relative;
@@ -57,17 +57,53 @@ li{
     list-style: none;
 }
 
-.elementsleft{
+.elementsleft{  
+    /*Muevo la posición del texto arriba*/ 
+    position:absolute;
+    top:1%;
     display:flex; 
-    justify-content: flex-start;
     gap: 10px;
     background-color: red;
+    width:67%;
 }
 
 .elementsright{
+      /*Muevo la posición del texto arriba*/
+    position:absolute;
+    top:1%;
+    right:1%;
      display:flex; 
-    justify-content: flex-end;
     gap: 10px;
     background-color: blue;
+    width:33%;
 }
 
+.segunda-linea{
+    display:flex; 
+    gap: 10px;
+    position:absolute;
+    top:5%;
+    background-color: yellow;
+    width:100%;
+}
+
+img{
+    max-width:100%;
+}
+
+.buttonblack button{
+    background-color: black;
+    color:white;
+}
+
+.buttonwhite button{
+    background-color: white;
+}
+
+.buttonyellow button{
+background-color:yellow;
+}
+
+.buttonred button{
+background-color:red;
+}
