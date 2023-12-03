@@ -91,6 +91,17 @@ img{
     max-width:100%;
 }
 
+div.texton-image {
+    display:flex; 
+    flex-wrap: wrap;
+    gap: 10px;
+    position:absolute;
+    top:20%;
+    left:33%;
+    width:33%;
+    color:white;
+}
+
 .buttonblack button{
     background-color: black;
     color:white;
@@ -102,8 +113,24 @@ img{
 
 .buttonyellow button{
 background-color:yellow;
+border-radius: 30%;
+height: 250%;
+width: 133%;
 }
 
 .buttonred button{
 background-color:red;
+color:white;
+border-color: white;
+border-radius: 30%;
+height: 250%;
+width: 133%;
+}
+
+h1{
+    font-size: larger;
+}
+
+h2{
+    font-size: larger;
 }
