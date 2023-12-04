@@ -51,6 +51,7 @@ table {
 
 .contenedor-background{
     position:relative;
+    inline-label-width: 180px;
 }
 
 li{
@@ -59,6 +60,12 @@ li{
 
 .elementsleft{  
     /*Muevo la posición del texto arriba*/ 
+    display: inline-block;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+    letter-spacing: 0.015625em;
+
     position:absolute;
     top:1%;
     left:0%;
@@ -72,6 +79,15 @@ li{
 
 .elementsright{
       /*Muevo la posición del texto arriba*/
+      display: block;
+      padding: 10px;
+      position: relative;
+      font-family: 'Poppins';
+      font-size: .875rem;
+      color: #000;
+      letter-spacing: 0.015625em;
+      font-weight: 500;
+
     position:absolute;
     top:1%;
     right:0%;
@@ -100,6 +116,14 @@ li{
     display:flex;
     background-color: grey;
     width:900px;
+    height: 40px;
+    font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+    font-size: 16px;
+    align-items: center;
+    gap:20px;
+    border: 3px, solid;
+    border-color: black;
+    padding-left: 10px;
 }
 
 img{
@@ -118,8 +142,19 @@ div.texton-image {
 }
 
 .buttonblack button{
-    background-color: black;
+    background-color: #231f20;;
     color:white;
+    font-weight: bold;
+    font-size: .875rem;
+    letter-spacing: 0.3px;
+    outline-offset: 3px;
+    font-family: 'Poppins';
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-style: none;
+    border-width: 0;
 }
 
 
