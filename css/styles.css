@@ -111,16 +111,24 @@ table {
 
 .buscador{
     display:flex;
-    background-color: grey;
+    background-color: #F2F2F2;
     width:900px;
     height: 40px;
     font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
     font-size: 16px;
     align-items: center;
-    gap:20px;
+    gap:0px;
     border: 3px, solid;
     border-color: black;
     padding-left: 10px;
+}
+
+.search-packages{
+    display:flex;
+    color:#7F909F;
+   width:180px;
+    height:70px;
+    
 }
 
 img{
@@ -242,7 +250,7 @@ p{
 .footer{
     display: flex;
     position:absolute;
-    bottom: -205%;
+    bottom: -145%;
     left:0%;
     right:0%;
     background-color: white;
