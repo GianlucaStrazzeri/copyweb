@@ -160,16 +160,30 @@ div.texton-image {
     padding-bottom: 0.5rem;
     border-style: none;
     border-width: 0;
+    height: 40px;
+    width: 90px;
+}
+
+.contenedor-bordergray{
+    background-color: yellow;
+}
+
+.contenedor-buttonwhite{
+    background-color: yellow;
 }
 
 .bordergray{
     background-color: white;
     border-color: grey;
+    height: 40px;
+    width: 90px;
 }
 
 .buttonwhite{
     background-color: white;
     border: none;
+    height: 40px;
+    width: 90px;
 }
 
 
