@@ -162,6 +162,15 @@ div.texton-image {
     border-width: 0;
 }
 
+.bordergray{
+    background-color: white;
+    border-color: grey;
+}
+
+.buttonwhite{
+    background-color: white;
+    border: none;
+}
 
 
 .buttonyellow button{
